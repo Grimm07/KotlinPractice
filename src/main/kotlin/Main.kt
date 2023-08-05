@@ -7,10 +7,12 @@ import kotlin.math.max
 
 fun main(args: Array<String>) {
     val file = File("src/main/resources/romaina_map.json")
+
     if(!file.exists()){
         println(file.absolutePath)
         throw FileNotFoundException()
     }
+
     var p = PriorityQueue<Int>{ p1, p2->
         max(p1, p2)
 
@@ -41,6 +43,8 @@ fun findPath(map: Cities, start: String, finish: String, visited: List<String> )
         }
     }
 }
+
+
 
 
 data class Connection(val name: String, val cost: Int)
