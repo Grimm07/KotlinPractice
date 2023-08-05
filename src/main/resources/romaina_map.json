@@ -1,0 +1,288 @@
+{
+  "cities": [
+    {
+      "name": "Oradea",
+      "connections": [
+        {
+          "name": "Zerind",
+          "cost": 71
+        },
+        {
+          "name": "Sibiu",
+          "cost": 151
+        }
+      ]
+    },
+    {
+      "name": "Zerind",
+      "connections": [
+        {
+          "name": "Arad",
+          "cost": 75
+        },
+        {
+          "name": "Oradea",
+          "cost": 71
+        }
+      ]
+    },
+    {
+      "name": "Arad",
+      "connections": [
+        {
+          "name": "Zerind",
+          "cost": 75
+        },
+        {
+          "name": "Sibiu",
+          "cost": 140
+        },
+        {
+          "name": "Timisoara",
+          "cost": 118
+        }
+      ]
+    },
+    {
+      "name": "Timisoara",
+      "connections": [
+        {
+          "name": "Arad",
+          "cost": 118
+        },
+        {
+          "name": "Lugoj",
+          "cost": 111
+        }
+      ]
+    },
+    {
+      "name": "Lugoj",
+      "connections": [
+        {
+          "name": "Timisoara",
+          "cost": 111
+        },
+        {
+          "name": "Mehadia",
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Mehadia",
+      "connections": [
+        {
+          "name": "Lugoj",
+          "cost": 70
+        },
+        {
+          "name": "Drobeta",
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Drobeta",
+      "connections": [
+        {
+          "name": "Mehadia",
+          "cost": 75
+        },
+        {
+          "name": "Craiova",
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Craiova",
+      "connections": [
+        {
+          "name": "Drobeta",
+          "cost": 120
+        },
+        {
+          "name": "Rimnicu Vilcea",
+          "cost": 146
+        },
+        {
+          "name": "Pitesti",
+          "cost": 138
+        }
+      ]
+    },
+    {
+      "name": "Rimnicu Vilcea",
+      "connections": [
+        {
+          "name": "Craiova",
+          "cost": 146
+        },
+        {
+          "name": "Sibiu",
+          "cost": 80
+        },
+        {
+          "name": "Pitesti",
+          "cost": 97
+        }
+      ]
+    },
+    {
+      "name": "Sibiu",
+      "connections": [
+        {
+          "name": "Oradea",
+          "cost": 151
+        },
+        {
+          "name": "Arad",
+          "cost": 140
+        },
+        {
+          "name": "Fagaras",
+          "cost": 99
+        },
+        {
+          "name": "Rimnicu Vilcea",
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Fagaras",
+      "connections": [
+        {
+          "name": "Sibiu",
+          "cost": 99
+        },
+        {
+          "name": "Bucharest",
+          "cost": 211
+        }
+      ]
+    },
+    {
+      "name": "Pitesti",
+      "connections": [
+        {
+          "name": "Rimnicu Vilcea",
+          "cost": 97
+        },
+        {
+          "name": "Craiova",
+          "cost": 138
+        },
+        {
+          "name": "Bucharest",
+          "cost": 101
+        }
+      ]
+    },
+    {
+      "name": "Bucharest",
+      "connections": [
+        {
+          "name": "Fagaras",
+          "cost": 211
+        },
+        {
+          "name": "Pitesti",
+          "cost": 101
+        },
+        {
+          "name": "Giurgiu",
+          "cost": 90
+        },
+        {
+          "name": "Urziceni",
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Giurgiu",
+      "connections": [
+        {
+          "name": "Bucharest",
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Urziceni",
+      "connections": [
+        {
+          "name": "Bucharest",
+          "cost": 85
+        },
+        {
+          "name": "Vaslui",
+          "cost": 142
+        },
+        {
+          "name": "Hirsova",
+          "cost": 98
+        }
+      ]
+    },
+    {
+      "name": "Neamt",
+      "connections": [
+        {
+          "name": "Iasi",
+          "cost": 87
+        }
+      ]
+    },
+    {
+      "name": "Iasi",
+      "connections": [
+        {
+          "name": "Neamt",
+          "cost": 87
+        },
+        {
+          "name": "Vaslui",
+          "cost": 92
+        }
+      ]
+    },
+    {
+      "name": "Vaslui",
+      "connections": [
+        {
+          "name": "Iasi",
+          "cost": 92
+        },
+        {
+          "name": "Urziceni",
+          "cost": 142
+        }
+      ]
+    },
+    {
+      "name": "Hirsova",
+      "connections": [
+        {
+          "name": "Urziceni",
+          "cost": 98
+        },
+        {
+          "name": "Eforie",
+          "cost": 86
+        }
+      ]
+    },
+    {
+      "name": "Eforie",
+      "connections": [
+        {
+          "name": "Hirsova",
+          "cost": 86
+        }
+      ]
+    }
+  ]
+}
